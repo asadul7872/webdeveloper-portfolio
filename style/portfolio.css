@@ -1,0 +1,47 @@
+/* font family */
+*{
+ font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navTitle{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+   
+}
+.texPrimary{
+    color: #fd6e0a;
+}
+.buttonPrimary{
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding: 15px 35px;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* nav button{
+  
+} */
