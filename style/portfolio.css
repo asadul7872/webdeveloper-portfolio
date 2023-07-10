@@ -87,13 +87,18 @@ font-weight: 400;
 line-height: 30px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 200px 200px;
+    margin-top: 130px;
+   
 }
 .sectionTitle{
     color:#181818;
@@ -101,9 +106,13 @@ line-height: 30px;
     font-size: 35px;
     font-weight: 700;
 }
-.sectionPDesh{
+.sectionPDes{
     color: #757575;
     text-align: center;
     font-size: 18px;
    
+}
+.aboutInfoContainer{
+    display: flex;
+    justify-content: space-around;
 }
